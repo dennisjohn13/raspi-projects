@@ -6,7 +6,7 @@ Home Projects
 
 # Compile the project
 
-`GOARM=7 GOARCH=arm GOOS=linux go build led_blink.go`
+`GOARM=7 GOARCH=arm GOOS=linux go build led.go`
 
 # RaspBerry Pi commands
 
@@ -16,11 +16,11 @@ Home Projects
 
 ## To Copy the binaries from Local(MAC) to Raspberry Pi
 
-`scp motion_sensor pi@raspberrypi.local:/home/pi/Desktop/projects`
+`scp led pi@raspberrypi.local:/home/pi/projects`
 
 ## To Run the program in Raspberry Pi and tail the output to Local (MAC)
 
-`ssh -t pi@raspberrypi.local "./Desktop/projects/motion_sensor"`
+`ssh -t pi@raspberrypi.local "./projects/led"`
 
 ## Raspberry Pi Pin Diagram
 
