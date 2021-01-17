@@ -18,5 +18,4 @@
 # vendor/
 
 # Binaries
-led_blink
-led
+binaries
