@@ -6,7 +6,7 @@ Home Projects
 
 # Compile the project
 
-`GOARM=7 GOARCH=arm GOOS=linux go build led.go`
+`GOARM=7 GOARCH=arm GOOS=linux go build -o ../../binaries`
 
 # RaspBerry Pi commands
 
