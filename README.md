@@ -16,11 +16,11 @@ Home Projects
 
 ## To Copy the binaries from Local(MAC) to Raspberry Pi
 
-`scp led pi@raspberrypi.local:/home/pi/projects`
+`scp led-rgb pi@raspberrypi.local:/home/pi/projects`
 
 ## To Run the program in Raspberry Pi and tail the output to Local (MAC)
 
-`ssh -t pi@raspberrypi.local "./projects/led"`
+`ssh -t pi@raspberrypi.local "./projects/led-rgb"`
 
 ## Raspberry Pi Pin Diagram
 

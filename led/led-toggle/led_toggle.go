@@ -9,7 +9,7 @@ import (
 
 func main() {
 	r := raspi.NewAdaptor()
-	led := gpio.NewLedDriver(r, "40")
+	led := gpio.NewLedDriver(r, "37")
 
 	work := func() {
 		gobot.Every(1*time.Second, func() {
