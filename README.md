@@ -25,3 +25,8 @@ Home Projects
 ## Raspberry Pi Pin Diagram
 
 ![Screenshot](GPIO-Pinout-Diagram.png)
+
+## Code Base to Decode MP3 signals
+
+https://godoc.org/github.com/tosone/minimp3
+https://github.com/faiface/beep
